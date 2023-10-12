@@ -4,7 +4,6 @@ idade_usuario = int(input('Digite sua idade: '))  # trabalhar o input com try/ex
 
 maioridade = 18
 
-#mudar essa pergunta somente se o usuário for menor de 18 anos
 if idade_usuario < maioridade:
     maior_responsavel = input('você está acompanhado por uma pessoa com idade acima de 18 anos? (sim/não): ')
     if maior_responsavel == 'sim':
